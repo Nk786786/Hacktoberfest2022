@@ -53,9 +53,10 @@ bool isLoopFound() {
 	return false;
 }
 
+//Execution is always start from main() method
 int main() {
 
-	push(2);
+	push(2); 	//calling push method
 	push(3);
 	push(4);
 	push(5);
